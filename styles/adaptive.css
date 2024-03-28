@@ -1,0 +1,302 @@
+@media only screen and (max-width: 1200px) {
+    .videoBlock{
+        width: 45%;
+        margin-right: 10px;
+    }
+    
+    .videoBlockMain{
+        justify-content: space-between;
+    }
+    .player-container{
+        width: 45%;
+        margin: auto;
+    }
+    .blockMain_text{
+        font-size: 35px;
+        
+      }
+      .blockMain_subText{
+        font-size: 18px;
+      }
+      .blockMain__red h3{
+        font-size: 23px;
+      }
+      .blockMain__red{
+        width: 80%;
+        margin-bottom: 10px;
+
+      }
+      .videoCont{
+       margin-bottom: 30px;
+    }
+    .videoBlockText p{
+        font-size:16px;
+      }
+      .videoBlockText img{
+        width: 30px;
+      }
+  }
+  @media only screen and (max-width: 900px) {
+   .newsLentaBlock p{
+    font-size: 14px;
+    white-space: nowrap;
+   }
+   .newsLentaBlock{
+        margin-right: 60px;  
+    }
+.first{
+    display: none;
+}
+    .player-container h2{
+        font-size: 20px;
+    }
+    .LiText{
+        font-size: 14px;
+    }
+    .contactText p{
+        font-size: 20px;
+    }
+    .contactText h2 {
+        font-size: 30px;
+    }
+    .contactInfo{
+        width: 300px;
+    }
+    .arrowContant{
+        width: 70%;
+    }
+    .blockMain_text{
+        font-size: 35px;
+        
+      }
+      .blockMain_subText{
+        font-size: 18px;
+      }
+      .blockMain__red h3{
+        font-size: 23px;
+      }
+      .blockMain__red{
+        width: 80%;
+        margin-bottom: 10px;
+
+      }
+  }
+  @media only screen and (max-width: 768px) {
+    .mainVideo{
+        height: 250px;
+    }
+    .videoBlockMain{
+        flex-direction: column;
+        align-items: center;
+    }
+    .player-container{
+        width: 70%;
+    }
+    .videoCont{
+        width: 80%;
+      
+    }
+    .videoBlock{
+        width: 100%;
+    }
+    .player-container{
+        margin: auto;
+    }
+    .videoCont:nth-child(2) {
+        margin-right: auto;
+    }
+    .videoCont:nth-child(4) {
+        margin-right: auto;
+    }
+    .blockMain{
+        flex-direction: column;
+    }
+    .blockMain__info{
+        margin-bottom: 20px;
+    }
+    .vacancyCards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vacancyCard{
+        width: 100%;
+        margin-right: 0;
+    }
+    .mainTilte{
+        font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .newsLentaBlock p{
+        font-size: 14px;
+        white-space: nowrap;
+       }
+       .newsLentaBlock{
+            margin-right: 50px;  
+        }
+    .second{
+        display: none;
+    }
+    .mainVideo{
+        height: 250px;
+    }
+    .player-container{
+        width: 80%;
+    }
+    .modal-content{
+        overflow: auto;
+        z-index: 1000;
+        width: 100%;
+        border-radius: 0px;
+        background-color: #fefefe;
+        margin: 0% auto;
+        padding: 0 15px
+    }
+    .modalBlock{
+        flex-direction: column-reverse;
+    }
+    .modal-title{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .modal-title h2{
+        font-size: 19px;
+    }
+    .modal{
+        overflow: auto !important;
+    }
+    .modalWork{
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .modalWork div{
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }.notif{
+     font-size: 14px;
+    }
+    .close{
+        font-size: 40px;
+    }
+    .contact{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .arrowContant{
+        width: 40%;
+        left: 95%;
+        top: 20%;
+
+    }
+    .large{
+        display: none;
+
+    }
+    .medium{
+        display: block;
+    }
+    .contactInfo{
+        width: 100%;
+    }
+    .LiText{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .contactText h2 {
+        font-size: 25px;
+    }
+    .contactText p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .none{
+        display: none;
+    }
+    .width60{
+        margin-right: 4px;
+        display: inline;
+      }
+
+      .videoTitle{
+        text-align: center;
+        font-size: 25px;
+      }
+      .videoSubTitle{
+        font-size: 20px;
+        text-align: center;
+      }
+      .playBtn{
+        width: 40px;
+      }
+      .player-container{
+        margin-bottom: 40px;
+        align-items: flex-start;
+      }
+      .video-container{
+        width: 100%;
+      }
+      .videoBlockText p{
+        font-size:20px;
+      }
+      .videoBlockText img{
+        width: 30px;
+      }
+      .vacancyTitle{
+        font-size: 30px;
+      }
+      .blockMain__red h3{
+        font-size: 23px;
+      }
+      .blockMain__red{
+        width: 80%;
+        margin-bottom: 10px;
+
+      }
+      .blockMain_subText{
+        font-size: 18px;
+        text-align: center;
+      }
+      .blockMain__info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .blockMain_text{
+        font-size: 25px;
+        text-align: center;
+      }
+      .blockMain_subText{
+        font-size: 20px;
+      }
+      .player-container h2 {
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: center;
+      }
+      .player-container{
+        align-items: center;
+      }
+  }
+  @media only screen and (max-width: 400px) {
+    .contactText h2{
+        font-size: 20px;
+    }
+    .player-container{
+        width: 100%;
+    }
+    .arrowContant{
+        width: 20%;
+    }
+    .blockMain__red{
+        width: 100%;
+    }
+    .player-container h2 {
+        font-size: 15px;
+    }
+  }

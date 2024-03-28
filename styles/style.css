@@ -1,0 +1,784 @@
+
+body{
+    font-size: 16px;
+    
+    font-family: "Proxima Nova Rg" ;
+   
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block {
+  
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    width: calc(33.33% - 20px);
+}
+
+.block img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: none;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu-btn {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.main{
+    background-image: url(../assets/img/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.blockMain__info{
+    margin-right: 0%;
+}
+.blockMain__red{
+  text-align: center;
+    background-color: #DA3E3E;
+    padding-left: 10px;
+    margin: 10px 0;
+    width: 75%;
+}
+.blockMain__red h3{
+  display: inline;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.blockMain_subText{
+    font-size: 25px;
+    color: white;
+}
+.controls {
+    margin-top: 10px;
+}
+
+button, input[type="range"] {
+    margin: 5px;
+}
+.mainTilte{
+    margin-bottom: 5%;
+    font-size: 30px;
+    color: white;
+}
+video {
+    width: 100%; /* Сделайте видео шириной 100% для адаптивности */
+    border-radius: 5px; /* Добавьте скругленные углы для видео */
+}
+.blockMain{
+    margin-bottom: 5%;
+}
+.player-container h2 {
+    font-size: 25px;
+    margin-top: 2%;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+
+
+.blockMain{
+    display: flex;
+    transition: all;
+    align-items: center;
+}
+.blockMain_text{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+  .hidden{
+    display: none !important;
+  }
+ 
+
+
+
+
+  .horizontal-scroll-container {
+    overflow: hidden;
+  }
+  
+  .horizontal-scroll-content {
+    white-space: nowrap; /* Предотвращает перенос строк */
+  }
+
+
+
+
+
+
+  /* contact */
+  .medium{
+    display: none;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 10%;
+  }
+  .contactInfoBtn{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactInfo ul{
+    margin-bottom: 20px;
+  }
+  .contactText{
+    margin-right: 5%;
+    position: relative;
+  }
+  .contactText h2{
+    font-size: 35px;
+  }
+  .contactText p{
+    color: #6D7281;
+    font-size: 20px;
+  }
+  .contactInfoBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #283F8A;
+  }
+  .LiText{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .contactInfoBtn p {
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+.width60{
+  display: none;
+}
+.modal-title{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .contactInfo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+    border: 1px solid #DCDFEA;
+    padding: 20px;
+ }
+  .arrowContant{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+  }
+
+  #copyNotification{
+    text-align: center;
+      position: relative;
+      display: inline-block;
+      padding: 8px 6px;
+      margin-bottom: 10px;
+      background-color: #23252B;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      
+      font-size: 14px;
+      color: white;
+
+
+  }
+
+  #copyNotification::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px; /* Половина ширины указателя */
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #23252B; /* Цвет указателя соответствует фону контейнера */
+  }
+
+
+
+
+
+
+
+
+  /* video */
+  .video{
+    background: url(../assets/img/BGBlockVideo.png) no-repeat center ;
+    background-size: cover;
+  }
+  .videoBlockMain{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+  .videoBlock{
+    margin-right:20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+  }
+  .videoBlock:nth-child(2){
+    margin-right:0px;
+  }
+  .videoBlock:nth-child(4){
+    margin-right:0px;
+  }
+  .videoTitle{
+    margin-top: 3%;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1%;
+  }
+  .videoSubTitle{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #DA3E3E;
+    margin-bottom: 2%;
+
+  }
+.videoBlockText{
+    display: flex;
+    align-items: center;
+}
+.videoBlockText p {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.player-container {
+  justify-content: center;
+    position: relative;
+width: 45%;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+ 
+}
+.newsLenta{
+ 
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #070A16;
+}
+.newsLentaBlock:nth-child(3) {
+  margin-right: 0;
+}
+.newsLenta p{
+  color: white;
+  font-size: 18px;
+}
+.newsLenta img{
+ margin-right: 20px;
+}
+.newsLentaBlock{
+  white-space: nowrap;
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+  margin-right: 10%;
+}
+.newsLentaBlock p{
+ 
+  white-space: nowrap;
+ }
+.videoCont{
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+.videoCont:nth-child(2){
+  margin-right: 0px;
+}
+.videoCont:nth-child(4){
+  margin-right: 0px;
+}
+
+
+
+.mainVideo{
+  height: 350px;
+}
+
+
+
+
+button{
+  cursor: pointer;
+}
+
+  /* vacancy */
+  .vacancyRed{
+    width: auto !important;
+
+  }
+  .vacancyTitle{
+    font-size: 40px;
+  }
+  .vacancyCards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .vacancyCard{
+    width: 30%;
+
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 30px;
+  }
+
+  .vacancyCard:nth-child(3n+3) {
+    margin-right: 0px;
+}
+  #card{
+    display: flex;
+    margin-bottom: 10px;
+    
+  }
+  .card_title p {
+    font-weight: 600;
+    font-size: 20px;
+    
+  }
+  .card_title {
+  
+    margin-top: 15px;
+  }
+  #card img {
+    margin-right:5px;
+  }
+  .card_btn{
+
+    margin-top: auto;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: transparent;
+  }
+
+
+  /* modal */
+
+/* Стили для модального окна */
+.modal {
+    overflow: hidden !important;
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0,0,0,0.5); /* Полупрозрачный фон */
+  }
+  
+  .modal-content {
+    padding: 20%;
+    border-radius:10px;
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;    
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modalBlock{
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .modalWork{
+    display: flex;
+  }
+  .modalText{
+    display: flex;
+    flex-direction: column;
+  }
+.plusModal{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+  footer{
+    background: url(../assets/img/footer/BGFooter.png) no-repeat center ;
+    background-size: cover;
+  }
+  .block__footer{
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    justify-content:  space-between;
+  }
+  .block__footer h2 {
+    font-size: 30px;
+    color: #fff;
+  }
+  .block__footer button {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 35px;
+    border-radius:5px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+
+
+
+  .BG{
+    position: absolute;
+    top: 0;
+   
+    width: 100%;
+    height: 100%;
+  
+  }
+  .playBtn {
+    position: absolute;
+    top: 50%; /* Размещаем по вертикали на 50% относительно родителя */
+    left: 50%; /* Размещаем по горизонтали на 50% относительно родителя */
+    transform: translate(-50%, -50%); /* Сдвигаем кнопку обратно на половину ее ширины и высоты, чтобы она была точно по центру */
+    z-index: 100;
+    cursor: pointer;
+}
+  .video-controls-container{
+    display: none;
+  }
+
+  .video-container {
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    background-color: black;
+  }
+  
+  .video-container.theater,
+  .video-container.full-screen {
+    max-width: initial;
+    width: 100%;
+  }
+  
+  .video-container.theater {
+    max-height: 90vh;
+  }
+  
+  .video-container.full-screen {
+    max-height: 100vh;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  .video-controls-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+  }
+  
+  .video-controls-container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, .75), transparent);
+    width: 100%;
+    aspect-ratio: 6 / 1;
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  .video-container:hover .video-controls-container,
+  .video-container:focus-within .video-controls-container,
+  .video-container.paused .video-controls-container {
+    opacity: 1;
+  }
+  
+  .video-controls-container .controls {
+    display: flex;
+    gap: .5rem;
+    padding: .25rem;
+    align-items: center;
+  }
+  
+  .video-controls-container .controls button {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: .85;
+    transition: opacity 150ms ease-in-out;
+  }
+  
+  .video-controls-container .controls button:hover {
+    opacity: 1;
+  }
+  
+  .video-container.paused .pause-icon {
+    display: none;
+  }
+  
+  .video-container:not(.paused) .play-icon {
+    display: none;
+  }
+  
+  .video-container.theater .tall {
+    display: none;
+  }
+  
+  .video-container:not(.theater) .wide {
+    display: none;
+  }
+  
+  .video-container.full-screen .open {
+    display: none;
+  }
+  
+  .video-container:not(.full-screen) .close {
+    display: none;
+  }
+  
+  .volume-high-icon,
+  .volume-low-icon,
+  .volume-muted-icon {
+    display: none;
+  }
+  
+  .video-container[data-volume-level="high"] .volume-high-icon {
+    display: block;
+  }
+  
+  .video-container[data-volume-level="low"] .volume-low-icon {
+    display: block;
+  }
+  
+  .video-container[data-volume-level="muted"] .volume-muted-icon {
+    display: block;
+  }
+  
+  .volume-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .volume-slider {
+    width: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: width 150ms ease-in-out, transform 150ms ease-in-out;
+  }
+  
+  .volume-container:hover .volume-slider,
+  .volume-slider:focus-within {
+    width: 100px;
+    transform: scaleX(1);
+  }
+  
+  .duration-container {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    flex-grow: 1;
+  }
+  
+  .video-container.captions .captions-btn {
+    border-bottom: 3px solid red;
+  }
+  
+  .video-controls-container .controls button.wide-btn {
+    width: 50px;
+  }
+  
+  .timeline-container {
+    height: 7px;
+    margin-inline: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .timeline {
+    background-color: rgba(100, 100, 100, .5);
+    height: 3px;
+    width: 100%;
+    position: relative
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: calc(100% - var(--preview-position) * 100%);
+    background-color: rgb(150, 150, 150);
+    display: none;
+  }
+  
+  .timeline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: calc(100% - var(--progress-position) * 100%);
+    background-color: red;
+  }
+  
+  .timeline .thumb-indicator {
+    --scale: 0;
+    position: absolute;
+    transform: translateX(-50%) scale(var(--scale));
+    height: 200%;
+    top: -50%;
+    left: calc(var(--progress-position) * 100%);
+    background-color: red;
+    border-radius: 50%;
+    transition: transform 150ms ease-in-out;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .timeline .preview-img {
+    position: absolute;
+    height: 80px;
+    aspect-ratio: 16 / 9;
+    top: -1rem;
+    transform: translate(-50%, -100%);
+    left: calc(var(--preview-position) * 100%);
+    border-radius: .25rem;
+    border: 2px solid white;
+    display: none;
+  }
+  
+  .thumbnail-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  .video-container.scrubbing .thumbnail-img {
+    display: block;
+  }
+  
+  .video-container.scrubbing .preview-img,
+  .timeline-container:hover .preview-img {
+    display: block;
+  }
+  
+  .video-container.scrubbing .timeline::before,
+  .timeline-container:hover .timeline::before {
+    display: block;
+  }
+  
+  .video-container.scrubbing .thumb-indicator,
+  .timeline-container:hover .thumb-indicator {
+    --scale: 1;
+  }
+  
+  .video-container.scrubbing .timeline,
+  .timeline-container:hover .timeline {
+    height: 100%;
+  }
